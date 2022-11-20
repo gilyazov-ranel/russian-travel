@@ -1,0 +1,15 @@
+.header__land-link {
+    margin: 0;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+    .header__land-link {
+        line-height: 18px;
+        font-size: 20px;
+    }
+}
