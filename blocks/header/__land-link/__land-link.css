@@ -7,6 +7,10 @@
     color: #FFFFFF;
 }
 
+.header__land-link:hover {
+    opacity: .5;
+}
+
 @media (max-width: 320px) {
     .header__land-link {
         line-height: 18px;

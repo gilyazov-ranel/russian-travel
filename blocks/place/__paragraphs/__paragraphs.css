@@ -1,0 +1,39 @@
+.place__paragraphs {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 484px;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.place__paragraphs .place__paragraph:first-child {
+    margin-bottom: 26px;
+}
+
+
+@media (max-width: 1024px) {
+    .place__paragraphs {
+        max-width: 456px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__paragraphs {
+        max-width: 352px;
+    }
+
+    .place__paragraphs .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraphs {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+
+    .place__paragraphs .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
+}

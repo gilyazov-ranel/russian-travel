@@ -1,6 +1,7 @@
 .places {
     margin: 92px auto;
     max-width: 984px;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +18,7 @@
     .places {
         margin: 88px auto 90px;
         max-width: 720px;
-        gap: 72px;
+        gap: 73px;
     }
 }
 

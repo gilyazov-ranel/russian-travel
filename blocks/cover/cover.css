@@ -1,8 +1,8 @@
 .cover {
     margin: 0 auto 92px;
     padding: 0;
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    max-height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,9 +11,10 @@
     background-size: 100%;
     position: relative;
     z-index: 1;
+    object-position: center center;
 }
 
-.cover::before {
+.cover:before {
     content: "";
     position: absolute;
     top: 0;
@@ -34,29 +35,30 @@
     bottom: 0;
 }
 
-.cover:hover {
+.cover:hover::before {
     opacity: .5;
 }
 
+
 @media (max-width: 1024px) {
     .cover {
-        width: 1024px;
-        height: 640px;
+        max-width: 1024px;
+        max-height: 640px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
         margin-bottom: 88px;
-        width: 768px;
-        height: 480px;
+        max-width: 768px;
+        max-height: 480px;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
         margin: 0 auto 64px;
-        width: 320px;
-        height: 200px;
+        max-height: 200px;
+        max-width: 320px;
     }
 }

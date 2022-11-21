@@ -1,7 +1,7 @@
 .footer {
     margin: 0 auto;
     max-width: 1184px;
-    max-height: 18px;
+    max-height: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 24px;
