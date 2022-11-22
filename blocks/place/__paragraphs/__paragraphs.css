@@ -4,6 +4,7 @@
     max-width: 484px;
     max-height: 100%;
     z-index: 1;
+    
 }
 
 .place__paragraphs .place__paragraph:first-child {
@@ -23,9 +24,21 @@
     }
 
     .place__paragraphs .place__paragraph:first-child {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .place__paragraphs {
+        max-width: calc(100vw - 55px);
+        margin: 0 auto;
+    }
+
+    .place__paragraphs .place__paragraph:first-child {
         margin-bottom: 25px;
     }
 }
+
 
 @media (max-width: 320px) {
     .place__paragraphs {

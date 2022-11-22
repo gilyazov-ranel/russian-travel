@@ -8,10 +8,11 @@
     align-items: center;
     text-align: center;
     background-image: url(../../images/cover-trains.jpg);
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     z-index: 1;
-    object-position: center center;
+    object-position: center;
+    object-fit: contain;
 }
 
 .cover:before {
@@ -36,29 +37,29 @@
 }
 
 .cover:hover::before {
-    opacity: .5;
+    opacity: .8;
 }
 
 
 @media (max-width: 1024px) {
     .cover {
         max-width: 1024px;
-        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
-        margin-bottom: 88px;
-        max-width: 768px;
-        max-height: 480px;
+        margin: 0 auto 88px;
+        max-width: 100%;
+        min-height: 480px;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
         margin: 0 auto 64px;
-        max-height: 200px;
-        max-width: 320px;
+        min-height: 200px;
+        max-width: 100%;
     }
 }

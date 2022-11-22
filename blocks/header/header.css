@@ -1,7 +1,7 @@
 .header {
     margin: 28px auto 56px;
     max-width: 1184px;
-    max-height: 52px;
+    max-height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -18,14 +18,20 @@
     .header {
         margin: 28px auto 48px;
         max-width: 720px;
-        max-height: 52px;
     }
+}
+
+@media (max-width: 730px) {
+    .header {
+        width: calc(100vw - 32px);
+        margin: 28px auto 48px;
+    }
+
 }
 
 @media (max-width: 320px) {
     .header {
         margin: 16px auto 48px;
         max-width: 288px;
-        max-height: 42px;
     }
 }

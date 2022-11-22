@@ -13,6 +13,14 @@
     }
 }
 
+@media (max-width: 730px) {
+    .cover__title {
+        width: calc(100vw - 32px);
+        font-size: calc(25vh - 100px);
+        line-height: calc(25vh - 100px);
+    }
+}
+
 @media (max-width: 320px) {
     .cover__title {
         margin: 33px auto 16px;

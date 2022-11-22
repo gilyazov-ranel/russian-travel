@@ -5,6 +5,16 @@
     gap: 0 18px;
 }
 
+@media (max-width: 550px) {
+    .footer__links {
+        max-width: calc(100vw - 134px);
+        display: flex;
+        flex-direction: column;
+        gap: 32px 0;
+        margin-bottom: 48px;
+    }
+}
+
 @media (max-width: 320px) {
     .footer__links {
         display: flex;
