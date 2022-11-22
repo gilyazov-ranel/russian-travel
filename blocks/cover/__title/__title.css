@@ -21,10 +21,26 @@
     }
 }
 
+@media (max-width: 500px) {
+    .cover__title {
+        width: calc(100vw - 100px);
+        font-size: calc(32vw - 100px);
+        line-height: calc(32vw - 100px);
+    }
+}  
+
+@media (max-width: 375px) {
+    .cover__title {
+        width: calc(100vw - 100px);
+        font-size: calc(37vw - 100px);
+        line-height: calc(37vw - 100px);
+    }
+}  
+
 @media (max-width: 320px) {
     .cover__title {
         margin: 33px auto 16px;
-        max-width: 288px;
+        width: 288px;
         max-height: auto;
         font-size: 32px;
         line-height: 35px;
