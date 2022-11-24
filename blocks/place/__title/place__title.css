@@ -2,33 +2,33 @@
     margin: 0;
     padding: 0;
     max-width: 460px;
-    max-height: 100%;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    word-break: break-word;
     z-index: 1;
+    word-break: break-word;
 }
 
 @media (max-width: 768px) {
     .place__title {
-        max-width: 100%;
+        max-width: 330px;
         font-size: 42px;
         line-height: 46px;
     }
 }
+
 
 @media (max-width: 500px) {
     .place__title {
         padding-left: 16px;
     }
 }
+    
 
 @media (max-width: 320px) {
     .place__title {
-        max-width: 100%;
+        padding-left: 10px;
         font-size: 32px;
         line-height: 35px;
-        padding-left: 16px;
     }
 }

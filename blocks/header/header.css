@@ -1,14 +1,13 @@
 .header {
     margin: 28px auto 56px;
     max-width: 1184px;
-    max-height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
     .header {
-        margin: 28px auto 48px;
+        margin-bottom: 48px;
         max-width: 928px;
         max-height: 52px;
     }
@@ -16,7 +15,6 @@
 
 @media (max-width: 768px) {
     .header {
-        margin: 28px auto 48px;
         max-width: 720px;
     }
 }
@@ -24,14 +22,13 @@
 @media (max-width: 730px) {
     .header {
         width: calc(100vw - 32px);
-        margin: 28px auto 48px;
     }
 
 }
 
 @media (max-width: 320px) {
     .header {
-        margin: 16px auto 48px;
+        margin-top: 16px;
         max-width: 288px;
     }
 }

@@ -12,10 +12,9 @@
     opacity: .5;
 }
 
-
 @media (max-width: 550px) {
     .footer__link {
-        font-size: calc(18vw - 45px);
+        font-size: calc(13vw / 2);
     }
 }
 

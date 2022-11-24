@@ -1,7 +1,7 @@
 .cover__subtitle {
     margin: 0 auto 245px;
     max-width: 360px;
-    max-height: 66px;
+    max-height: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -9,21 +9,20 @@
 
 @media (max-width: 1024px) {
     .cover__subtitle {
-        margin: 0 auto 195px;
+        margin-bottom: 195px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        margin: 0 auto 115px;
+        margin-bottom: 115px;
     }
 }
 
 @media (max-width: 320px) {
     .cover__subtitle {
-        margin: 0 auto 33px;
+        margin-bottom: 33px;
         max-width: 288px;
-        font-weight: 400;
         font-size: 14px;
         line-height: 16px;
     }

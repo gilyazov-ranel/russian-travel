@@ -31,7 +31,5 @@
 @media (max-width: 320px) {
     .footer {
         max-width: 186px;
-        flex-direction: column;
-        margin-left: 16px;
     }
 }

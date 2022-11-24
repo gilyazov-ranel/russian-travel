@@ -4,6 +4,7 @@
     max-height: 615px;
     max-width: 984px;
     object-position: center center;
+    object-fit: contain;
 }
 
 @media (max-width: 1024px) {
@@ -15,14 +16,13 @@
 
 @media (max-width: 768px) {
     .lead__image {
-        max-height: 480px;
-        max-width: 100%;
+        min-height: 100%;
     }
 }
 
 @media (max-width: 320px) {
     .lead__image {
-        max-height: 200px;
+        min-height: 200px;
         max-width: 100%;
     }
 }

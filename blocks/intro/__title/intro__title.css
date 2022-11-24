@@ -9,14 +9,15 @@
 
 @media (max-width: 350px) {
     .intro__title {
-        font-size: calc(30vh - 100px);
-        line-height: calc(30vh - 100px);
+        font-size: calc(20vw / 2);
+        line-height: calc(20vw / 2);
     }
 }
 
 
 @media (max-width: 320px) {
     .intro__title {
+        width: 230px;
         font-size: 32px;
         line-height: 35px;
     }

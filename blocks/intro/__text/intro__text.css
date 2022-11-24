@@ -1,18 +1,24 @@
 .intro__text {
-    max-width: 690px;
+    width: 690px;
     margin: 0;
     padding: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+    text-align: left;
     margin-top: 40px;
     margin-bottom: 33px;
     z-index: 1;
 }
 
+@media (max-width: 768px) {
+    .intro__text {
+        max-width: calc(100vw - 48px);
+    }
+}
+
 @media (max-width: 320px) {
     .intro__text {
-        max-width: 288px;
-        margin-bottom: 34px;
+        max-width: calc(100vw - 32px);
     }
 }

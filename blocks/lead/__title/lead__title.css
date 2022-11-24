@@ -2,34 +2,34 @@
     margin: 0;
     padding: 0;
     max-width: 720px;
-    max-height: 100%;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
+    word-break: break-word;
 }
 
 @media (max-width: 730px) {
     .lead__title {
         width: calc(100vw - 32px);
-        font-size: calc(25vh - 100px);
-        line-height: calc(25vh - 100px);
+        font-size: calc(20vw / 2);
+        line-height: calc(20vw / 2);
     }
 }    
 
 @media (max-width: 500px) {
     .lead__title {
         width: calc(100vw - 100px);
-        font-size: calc(32vw - 100px);
-        line-height: calc(32vw - 100px);
+        font-size: calc(20vw / 2);
+        line-height: calc(20vw / 2);
     }
 }  
 
 @media (max-width: 375px) {
     .lead__title {
         width: calc(100vw - 100px);
-        font-size: calc(37vw - 100px);
-        line-height: calc(37vw - 100px);
+        font-size: calc(20vw / 2);
+        line-height: calc(20vw / 2);
     }
 }  
 

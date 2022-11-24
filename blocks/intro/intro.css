@@ -2,11 +2,11 @@
     margin: 0 auto;
     padding: 0;
     max-width: 984px;
-    max-height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 92px;
     margin-bottom: 92px;
+    word-break: break-word;
 }
 
 @media (max-width: 1024px) {
@@ -18,20 +18,21 @@
 @media (max-width: 768px) {
     .intro {
         max-width: 720px;
-        margin: 88px auto;
+        margin-top: 88px;
+        margin-bottom: 87px;
     }
 }
 
 @media (max-width: 500px) {
     .intro {
         width: calc(100vw - 50px);
-        margin: 64px auto;
+        margin-top: 64px;
+        margin-bottom: 64px;
     }
 }
 
 @media (max-width: 320px) {
     .intro {
-        max-width: 288px;
-        margin: 64px auto;
+        width: calc(100vw - 32px);
     }
 }
