@@ -15,24 +15,13 @@
         font-size: calc(20vw / 2);
         line-height: calc(20vw / 2);
     }
-}    
+}
 
 @media (max-width: 500px) {
     .lead__title {
         width: calc(100vw - 100px);
-        font-size: calc(20vw / 2);
-        line-height: calc(20vw / 2);
     }
-}  
-
-@media (max-width: 375px) {
-    .lead__title {
-        width: calc(100vw - 100px);
-        font-size: calc(20vw / 2);
-        line-height: calc(20vw / 2);
-    }
-}  
-
+}
 
 @media (max-width: 320px) {
     .lead__title {

@@ -10,7 +10,6 @@
 @media (max-width: 1024px) {
     .cover {
         max-width: 1024px;
-        min-height: 640px;
     }
 }
 
@@ -18,13 +17,11 @@
     .cover {
         margin-bottom: 88px;
         max-width: 768px;
-        min-height: 100%;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
         margin-bottom: 64px;
-        max-height: 200px;
     }
 }
